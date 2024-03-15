@@ -20,8 +20,6 @@ player = players[0]
 win = Tk()
 win.geometry(f'{WIN_WIDTH}x{WIN_HEIGHT}')
 win.title('TicTacToe')
-icon = PhotoImage(file='icon.png')
-win.iconphoto(True, icon)
 win.resizable(False, False)
 win.config(background=BG_COLOR)
 
